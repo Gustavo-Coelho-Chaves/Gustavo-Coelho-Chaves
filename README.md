@@ -62,7 +62,7 @@ Estudante de **Sistemas de Informação (7º período)** com foco em infraestrut
 
 ## 🚀 Projetos em Destaque
 
-### 🌐 [NetGraph Scanner](https://github.com/Gustavo0Coelho/netgraph)
+### 🌐 [NetGraph Scanner](https://github.com/Gustavo-Coelho-Chaves/netgraph)
 > Scanner de rede local com visualização em **grafo interativo em tempo real**
 
 - Detecta e classifica automaticamente dispositivos via **ARP/ICMP**
@@ -95,7 +95,7 @@ Estudante de **Sistemas de Informação (7º período)** com foco em infraestrut
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gusanshou0@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-chaves)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gustavo0Coelho)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gustavo-Coelho-Chaves)
 
 </div>
 
