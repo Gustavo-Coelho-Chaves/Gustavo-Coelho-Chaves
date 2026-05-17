@@ -85,19 +85,7 @@ Estudante de **Sistemas de Informação (7º período)** com foco em infraestrut
 
 - `Docker` `Infraestrutura` `DevOps`
 
----
 
-## 📊 Estatísticas
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Gustavo0Coelho&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=ffffff)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gustavo0Coelho&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=ffffff)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Gustavo0Coelho&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5ff&fire=00e5ff&currStreakLabel=00e5ff)
-
-</div>
 
 ---
 
