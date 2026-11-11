@@ -147,7 +147,7 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 <div align="center">
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gusanshou0@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-henrique-coelho-chaves)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-henrique-coelho-chaves-b5118b1ab)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gustavo-Coelho-Chaves)
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:00E5FF&height=80&section=footer)
