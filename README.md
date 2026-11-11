@@ -7,7 +7,7 @@
 # Gustavo Chaves
 ### Dados · BI · Relatórios · Suporte Técnico
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00E5FF&center=true&vCenter=true&width=650&lines=SELECT+*+FROM+carreira+WHERE+foco+%3D+%27dados%27%3B;An%C3%A1lise+de+Dados+%7C+Relat%C3%B3rios+%7C+Dashboards;SQL+%7C+MySQL+%7C+Power+BI+%7C+Python;Suporte+T%C3%A9cnico+%40+Azship;Sistemas+de+Informa%C3%A7%C3%A3o+%E2%80%94+8%C2%BA+Per%C3%ADodo)](https://git.io/typing-svg)
+
 
 </div>
 
