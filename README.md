@@ -2,47 +2,90 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<!-- ANIMAÇÃO DE QUADRADOS TRANSPARENTES FLUTUANDO -->
-<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Quadrado 1 -->
-  <rect x="50" y="120" width="10" height="10" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="120;-20" dur="8s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+<!-- ANIMAÇÃO DE DATA STREAM EM TELA CHEIA -->
+<svg width="100%" height="140" viewBox="0 0 1000 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Linha 1 -->
+  <rect x="2%" y="140" width="8" height="8" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="140;-20" dur="7s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite" begin="0s"/>
   </rect>
-  <!-- Quadrado 2 -->
-  <rect x="150" y="120" width="14" height="14" fill="#6A0DAD" rx="2">
-    <animate attributeName="y" values="120;-20" dur="10s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0;0.6;0" dur="10s" repeatCount="indefinite" begin="1.5s"/>
+  <rect x="8%" y="140" width="12" height="12" fill="#6A0DAD" rx="2">
+    <animate attributeName="y" values="140;-20" dur="9s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="1s"/>
   </rect>
-  <!-- Quadrado 3 -->
-  <rect x="250" y="120" width="8" height="8" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="120;-20" dur="7s" repeatCount="indefinite" begin="3s"/>
-    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite" begin="3s"/>
+  <rect x="15%" y="140" width="16" height="16" fill="#00E5FF" rx="3">
+    <animate attributeName="y" values="140;-20" dur="11s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="11s" repeatCount="indefinite" begin="2s"/>
   </rect>
-  <!-- Quadrado 4 -->
-  <rect x="350" y="120" width="12" height="12" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="120;-20" dur="9s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="0.5s"/>
+  <rect x="22%" y="140" width="6" height="6" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="140;-20" dur="6s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite" begin="0.5s"/>
   </rect>
-  <!-- Quadrado 5 -->
-  <rect x="450" y="120" width="16" height="16" fill="#6A0DAD" rx="3">
-    <animate attributeName="y" values="120;-20" dur="11s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="11s" repeatCount="indefinite" begin="2s"/>
+  <rect x="28%" y="140" width="14" height="14" fill="#6A0DAD" rx="2">
+    <animate attributeName="y" values="140;-20" dur="8s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite" begin="3s"/>
   </rect>
-  <!-- Quadrado 6 -->
-  <rect x="550" y="120" width="9" height="9" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="120;-20" dur="8.5s" repeatCount="indefinite" begin="4s"/>
-    <animate attributeName="opacity" values="0;0.7;0" dur="8.5s" repeatCount="indefinite" begin="4s"/>
+  <rect x="35%" y="140" width="10" height="10" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="140;-20" dur="10s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite" begin="1.5s"/>
   </rect>
-  <!-- Quadrado 7 -->
-  <rect x="650" y="120" width="11" height="11" fill="#6A0DAD" rx="2">
-    <animate attributeName="y" values="120;-20" dur="9.5s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0;0.6;0" dur="9.5s" repeatCount="indefinite" begin="1s"/>
+  <rect x="42%" y="140" width="8" height="8" fill="#6A0DAD" rx="1">
+    <animate attributeName="y" values="140;-20" dur="7.5s" repeatCount="indefinite" begin="4s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="7.5s" repeatCount="indefinite" begin="4s"/>
   </rect>
-  <!-- Quadrado 8 -->
-  <rect x="750" y="120" width="15" height="15" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="120;-20" dur="10s" repeatCount="indefinite" begin="3.5s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite" begin="3.5s"/>
+  <rect x="49%" y="140" width="18" height="18" fill="#00E5FF" rx="4">
+    <animate attributeName="y" values="140;-20" dur="12s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="12s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <rect x="56%" y="140" width="12" height="12" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="140;-20" dur="8.5s" repeatCount="indefinite" begin="2.5s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="8.5s" repeatCount="indefinite" begin="2.5s"/>
+  </rect>
+  <rect x="63%" y="140" width="9" height="9" fill="#6A0DAD" rx="2">
+    <animate attributeName="y" values="140;-20" dur="9.5s" repeatCount="indefinite" begin="5s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="9.5s" repeatCount="indefinite" begin="5s"/>
+  </rect>
+  <rect x="70%" y="140" width="15" height="15" fill="#00E5FF" rx="3">
+    <animate attributeName="y" values="140;-20" dur="11s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="11s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+  <rect x="77%" y="140" width="7" height="7" fill="#6A0DAD" rx="1">
+    <animate attributeName="y" values="140;-20" dur="6.5s" repeatCount="indefinite" begin="3.5s"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="6.5s" repeatCount="indefinite" begin="3.5s"/>
+  </rect>
+  <rect x="84%" y="140" width="13" height="13" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="140;-20" dur="10.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="10.5s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+  <rect x="91%" y="140" width="11" height="11" fill="#6A0DAD" rx="2">
+    <animate attributeName="y" values="140;-20" dur="8s" repeatCount="indefinite" begin="4.5s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite" begin="4.5s"/>
+  </rect>
+  <rect x="98%" y="140" width="8" height="8" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="140;-20" dur="7s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+
+  <!-- Elementos extras para preencher o meio -->
+  <rect x="12%" y="140" width="5" height="5" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="140;-20" dur="5s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite" begin="1.2s"/>
+  </rect>
+  <rect x="32%" y="140" width="12" height="12" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="140;-20" dur="9s" repeatCount="indefinite" begin="5.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="5.5s"/>
+  </rect>
+  <rect x="52%" y="140" width="8" height="8" fill="#6A0DAD" rx="1">
+    <animate attributeName="y" values="140;-20" dur="7s" repeatCount="indefinite" begin="3.2s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite" begin="3.2s"/>
+  </rect>
+  <rect x="74%" y="140" width="14" height="14" fill="#6A0DAD" rx="3">
+    <animate attributeName="y" values="140;-20" dur="10s" repeatCount="indefinite" begin="2.8s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="10s" repeatCount="indefinite" begin="2.8s"/>
+  </rect>
+  <rect x="88%" y="140" width="6" height="6" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="140;-20" dur="6s" repeatCount="indefinite" begin="1.8s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="6s" repeatCount="indefinite" begin="1.8s"/>
   </rect>
 </svg>
 
