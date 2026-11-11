@@ -1,121 +1,8 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
+<img src="assets/header.svg" width="100%" alt="Gustavo Chaves - Header Animado" />
 
-<!-- ANIMAÇÃO DE CUBOS 3D FLUTUANDO (COMPATÍVEL COM GITHUB) -->
-<svg width="100%" height="240" viewBox="0 0 1000 240" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-  
-  <!-- CUBO 1 (Ciano) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="100,260; 100,-80" dur="14s" repeatCount="indefinite" begin="0s" />
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="14s" repeatCount="indefinite" begin="0s" />
-    <g transform="scale(1)">
-      <g stroke="#00E5FF" stroke-width="5" stroke-opacity="0.15" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-      <g stroke="#00E5FF" stroke-width="1.5" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="rgba(0,229,255,0.05)" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" fill="rgba(0,229,255,0.1)" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-    </g>
-  </g>
-
-  <!-- CUBO 2 (Roxo) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="240,260; 240,-80" dur="18s" repeatCount="indefinite" begin="4s" />
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="18s" repeatCount="indefinite" begin="4s" />
-    <g transform="scale(0.7)">
-      <g stroke="#6A0DAD" stroke-width="5" stroke-opacity="0.2" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-      <g stroke="#6A0DAD" stroke-width="1.5" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="rgba(106,13,173,0.05)" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" fill="rgba(106,13,173,0.1)" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-    </g>
-  </g>
-
-  <!-- CUBO 3 (Ciano) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="400,260; 400,-80" dur="12s" repeatCount="indefinite" begin="2s" />
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="12s" repeatCount="indefinite" begin="2s" />
-    <g transform="scale(1.2)">
-      <g stroke="#00E5FF" stroke-width="5" stroke-opacity="0.15" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-      <g stroke="#00E5FF" stroke-width="1.5" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="rgba(0,229,255,0.05)" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" fill="rgba(0,229,255,0.1)" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-    </g>
-  </g>
-
-  <!-- CUBO 4 (Roxo) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="560,260; 560,-80" dur="16s" repeatCount="indefinite" begin="6s" />
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="16s" repeatCount="indefinite" begin="6s" />
-    <g transform="scale(0.8)">
-      <g stroke="#6A0DAD" stroke-width="5" stroke-opacity="0.2" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-      <g stroke="#6A0DAD" stroke-width="1.5" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="rgba(106,13,173,0.05)" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" fill="rgba(106,13,173,0.1)" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-    </g>
-  </g>
-
-  <!-- CUBO 5 (Ciano) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="720,260; 720,-80" dur="15s" repeatCount="indefinite" begin="1s" />
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="15s" repeatCount="indefinite" begin="1s" />
-    <g transform="scale(1)">
-      <g stroke="#00E5FF" stroke-width="5" stroke-opacity="0.15" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-      <g stroke="#00E5FF" stroke-width="1.5" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="rgba(0,229,255,0.05)" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" fill="rgba(0,229,255,0.1)" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-    </g>
-  </g>
-
-  <!-- CUBO 6 (Roxo) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="880,260; 880,-80" dur="18s" repeatCount="indefinite" begin="8s" />
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="18s" repeatCount="indefinite" begin="8s" />
-    <g transform="scale(0.6)">
-      <g stroke="#6A0DAD" stroke-width="5" stroke-opacity="0.2" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-      <g stroke="#6A0DAD" stroke-width="1.5" fill="none" stroke-linejoin="round">
-        <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="rgba(106,13,173,0.05)" />
-        <polygon points="0,-10 8.6,-5 8.6,5 0,10 -8.6,5 -8.6,-5" fill="rgba(106,13,173,0.1)" />
-        <path d="M0,-20 L0,-10 M17.3,-10 L8.6,-5 M17.3,10 L8.6,5 M0,20 L0,10 M-17.3,10 L-8.6,5 M-17.3,-10 L-8.6,-5 M0,0 L0,-10 M0,0 L8.6,-5 M0,0 L8.6,5 M0,0 L0,10 M0,0 L-8.6,5 M0,0 L-8.6,-5" />
-      </g>
-    </g>
-  </g>
-</svg>
-
-# Gustavo Chaves
-### Dados · BI · Relatórios · Suporte Técnico
+<br>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00E5FF&center=true&vCenter=true&width=650&lines=SELECT+*+FROM+carreira+WHERE+foco+%3D+%27dados%27%3B;An%C3%A1lise+de+Dados+%7C+Relat%C3%B3rios+%7C+Dashboards;SQL+%7C+MySQL+%7C+Power+BI+%7C+Python;Suporte+T%C3%A9cnico+%40+Azship;Sistemas+de+Informa%C3%A7%C3%A3o+%E2%80%94+8%C2%BA+Per%C3%ADodo)](https://git.io/typing-svg)
 
@@ -205,8 +92,6 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 - Pipeline de coleta e carga (ETL) automatizado
 - `Python` `MySQL` `Power BI` `ETL`
 
-<!-- Se o repositório for público, adicione o link no título acima -->
-
 ---
 
 ### TaskFlow Service Desk
@@ -214,8 +99,6 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 
 - Telas de cliente e de suporte, com indicadores de atendimento (**CSAT**, **FRT** e tempo de atendimento)
 - `Python` `Flask` `Socket.IO` `ITIL` `Indicadores`
-
-<!-- Se o repositório for público, adicione o link no título acima -->
 
 ---
 
@@ -262,6 +145,8 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-henrique-coelho-chaves-b5118b1ab)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gustavo-Coelho-Chaves)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:00E5FF&height=80&section=footer)
+<br><br>
+
+<img src="assets/footer.svg" width="100%" alt="Footer Animado" />
 
 </div>
