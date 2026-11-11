@@ -2,91 +2,106 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<!-- ANIMAÇÃO DE DATA STREAM EM TELA CHEIA -->
-<svg width="100%" height="140" viewBox="0 0 1000 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Linha 1 -->
-  <rect x="2%" y="140" width="8" height="8" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="140;-20" dur="7s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite" begin="0s"/>
-  </rect>
-  <rect x="8%" y="140" width="12" height="12" fill="#6A0DAD" rx="2">
-    <animate attributeName="y" values="140;-20" dur="9s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="1s"/>
-  </rect>
-  <rect x="15%" y="140" width="16" height="16" fill="#00E5FF" rx="3">
-    <animate attributeName="y" values="140;-20" dur="11s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0;0.6;0" dur="11s" repeatCount="indefinite" begin="2s"/>
-  </rect>
-  <rect x="22%" y="140" width="6" height="6" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="140;-20" dur="6s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite" begin="0.5s"/>
-  </rect>
-  <rect x="28%" y="140" width="14" height="14" fill="#6A0DAD" rx="2">
-    <animate attributeName="y" values="140;-20" dur="8s" repeatCount="indefinite" begin="3s"/>
-    <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite" begin="3s"/>
-  </rect>
-  <rect x="35%" y="140" width="10" height="10" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="140;-20" dur="10s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite" begin="1.5s"/>
-  </rect>
-  <rect x="42%" y="140" width="8" height="8" fill="#6A0DAD" rx="1">
-    <animate attributeName="y" values="140;-20" dur="7.5s" repeatCount="indefinite" begin="4s"/>
-    <animate attributeName="opacity" values="0;0.6;0" dur="7.5s" repeatCount="indefinite" begin="4s"/>
-  </rect>
-  <rect x="49%" y="140" width="18" height="18" fill="#00E5FF" rx="4">
-    <animate attributeName="y" values="140;-20" dur="12s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" values="0;0.4;0" dur="12s" repeatCount="indefinite" begin="0s"/>
-  </rect>
-  <rect x="56%" y="140" width="12" height="12" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="140;-20" dur="8.5s" repeatCount="indefinite" begin="2.5s"/>
-    <animate attributeName="opacity" values="0;0.7;0" dur="8.5s" repeatCount="indefinite" begin="2.5s"/>
-  </rect>
-  <rect x="63%" y="140" width="9" height="9" fill="#6A0DAD" rx="2">
-    <animate attributeName="y" values="140;-20" dur="9.5s" repeatCount="indefinite" begin="5s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="9.5s" repeatCount="indefinite" begin="5s"/>
-  </rect>
-  <rect x="70%" y="140" width="15" height="15" fill="#00E5FF" rx="3">
-    <animate attributeName="y" values="140;-20" dur="11s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="11s" repeatCount="indefinite" begin="1s"/>
-  </rect>
-  <rect x="77%" y="140" width="7" height="7" fill="#6A0DAD" rx="1">
-    <animate attributeName="y" values="140;-20" dur="6.5s" repeatCount="indefinite" begin="3.5s"/>
-    <animate attributeName="opacity" values="0;0.9;0" dur="6.5s" repeatCount="indefinite" begin="3.5s"/>
-  </rect>
-  <rect x="84%" y="140" width="13" height="13" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="140;-20" dur="10.5s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0;0.6;0" dur="10.5s" repeatCount="indefinite" begin="0.5s"/>
-  </rect>
-  <rect x="91%" y="140" width="11" height="11" fill="#6A0DAD" rx="2">
-    <animate attributeName="y" values="140;-20" dur="8s" repeatCount="indefinite" begin="4.5s"/>
-    <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite" begin="4.5s"/>
-  </rect>
-  <rect x="98%" y="140" width="8" height="8" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="140;-20" dur="7s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite" begin="2s"/>
-  </rect>
+<!-- ANIMAÇÃO DE CUBOS 3D FLUTUANDO (DATA STREAM) -->
+<svg width="100%" height="160" viewBox="0 0 1000 160" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Filtro de Brilho Ciano -->
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Filtro de Brilho Roxo -->
+    <filter id="glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
 
-  <!-- Elementos extras para preencher o meio -->
-  <rect x="12%" y="140" width="5" height="5" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="140;-20" dur="5s" repeatCount="indefinite" begin="1.2s"/>
-    <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite" begin="1.2s"/>
-  </rect>
-  <rect x="32%" y="140" width="12" height="12" fill="#00E5FF" rx="2">
-    <animate attributeName="y" values="140;-20" dur="9s" repeatCount="indefinite" begin="5.5s"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="5.5s"/>
-  </rect>
-  <rect x="52%" y="140" width="8" height="8" fill="#6A0DAD" rx="1">
-    <animate attributeName="y" values="140;-20" dur="7s" repeatCount="indefinite" begin="3.2s"/>
-    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite" begin="3.2s"/>
-  </rect>
-  <rect x="74%" y="140" width="14" height="14" fill="#6A0DAD" rx="3">
-    <animate attributeName="y" values="140;-20" dur="10s" repeatCount="indefinite" begin="2.8s"/>
-    <animate attributeName="opacity" values="0;0.6;0" dur="10s" repeatCount="indefinite" begin="2.8s"/>
-  </rect>
-  <rect x="88%" y="140" width="6" height="6" fill="#00E5FF" rx="1">
-    <animate attributeName="y" values="140;-20" dur="6s" repeatCount="indefinite" begin="1.8s"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="6s" repeatCount="indefinite" begin="1.8s"/>
-  </rect>
+    <!-- Modelo do Cubo Ciano -->
+    <g id="cube-cyan" stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="#00E5FF" fill-opacity="0.05"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0" />
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="#00E5FF" fill-opacity="0.15"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0" />
+    </g>
+
+    <!-- Modelo do Cubo Roxo -->
+    <g id="cube-purple" stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="#6A0DAD" fill-opacity="0.05"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0" />
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="#6A0DAD" fill-opacity="0.15"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0" />
+    </g>
+  </defs>
+
+  <!-- Cubos Subindo pela Tela -->
+  <!-- Cubo 1 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="80,160; 80,-50" dur="12s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="12s" repeatCount="indefinite" begin="0s"/>
+    <g transform="scale(0.8)"><use href="#cube-cyan" /></g>
+  </g>
+  <!-- Cubo 2 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="180,160; 180,-50" dur="15s" repeatCount="indefinite" begin="4s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="15s" repeatCount="indefinite" begin="4s"/>
+    <g transform="scale(0.5)"><use href="#cube-purple" /></g>
+  </g>
+  <!-- Cubo 3 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="280,160; 280,-50" dur="10s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="10s" repeatCount="indefinite" begin="2s"/>
+    <g transform="scale(1)"><use href="#cube-cyan" /></g>
+  </g>
+  <!-- Cubo 4 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="400,160; 400,-50" dur="14s" repeatCount="indefinite" begin="7s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite" begin="7s"/>
+    <g transform="scale(0.7)"><use href="#cube-purple" /></g>
+  </g>
+  <!-- Cubo 5 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="520,160; 520,-50" dur="11s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="11s" repeatCount="indefinite" begin="1s"/>
+    <g transform="scale(0.9)"><use href="#cube-cyan" /></g>
+  </g>
+  <!-- Cubo 6 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="650,160; 650,-50" dur="16s" repeatCount="indefinite" begin="5s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="16s" repeatCount="indefinite" begin="5s"/>
+    <g transform="scale(0.6)"><use href="#cube-purple" /></g>
+  </g>
+  <!-- Cubo 7 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="750,160; 750,-50" dur="13s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="13s" repeatCount="indefinite" begin="3s"/>
+    <g transform="scale(0.85)"><use href="#cube-cyan" /></g>
+  </g>
+  <!-- Cubo 8 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="880,160; 880,-50" dur="12s" repeatCount="indefinite" begin="8s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="12s" repeatCount="indefinite" begin="8s"/>
+    <g transform="scale(0.7)"><use href="#cube-purple" /></g>
+  </g>
+  <!-- Cubo 9 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="950,160; 950,-50" dur="10s" repeatCount="indefinite" begin="6s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="10s" repeatCount="indefinite" begin="6s"/>
+    <g transform="scale(0.9)"><use href="#cube-cyan" /></g>
+  </g>
+  <!-- Cubo 10 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="340,160; 340,-50" dur="14s" repeatCount="indefinite" begin="9s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite" begin="9s"/>
+    <g transform="scale(0.55)"><use href="#cube-cyan" /></g>
+  </g>
 </svg>
 
 # Gustavo Chaves
