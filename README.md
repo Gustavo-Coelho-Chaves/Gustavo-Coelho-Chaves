@@ -2,56 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<!-- ANIMAÇÃO DE QUADRADOS TRANSPARENTES FLUTUANDO -->
-<svg width="100%" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" style="background: transparent;">
-  <!-- Quadrados Ciano -->
-  <rect x="5%" y="100" width="12" height="12" fill="#00E5FF" opacity="0.4" rx="2">
-    <animate attributeName="y" values="100;-20" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" />
-  </rect>
-  <rect x="15%" y="100" width="8" height="8" fill="#00E5FF" opacity="0.6" rx="1">
-    <animate attributeName="y" values="100;-20" dur="4s" repeatCount="indefinite" begin="1s" />
-    <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite" begin="1s" />
-  </rect>
-  <rect x="35%" y="100" width="16" height="16" fill="#00E5FF" opacity="0.2" rx="3">
-    <animate attributeName="y" values="100;-20" dur="5s" repeatCount="indefinite" begin="2s" />
-    <animate attributeName="opacity" values="0;0.6;0" dur="5s" repeatCount="indefinite" begin="2s" />
-  </rect>
-  <rect x="55%" y="100" width="12" height="12" fill="#00E5FF" opacity="0.4" rx="2">
-    <animate attributeName="y" values="100;-20" dur="4.2s" repeatCount="indefinite" begin="0.8s" />
-    <animate attributeName="opacity" values="0;0.7;0" dur="4.2s" repeatCount="indefinite" begin="0.8s" />
-  </rect>
-  <rect x="75%" y="100" width="10" height="10" fill="#00E5FF" opacity="0.5" rx="2">
-    <animate attributeName="y" values="100;-20" dur="3.8s" repeatCount="indefinite" begin="1.2s" />
-    <animate attributeName="opacity" values="0;0.8;0" dur="3.8s" repeatCount="indefinite" begin="1.2s" />
-  </rect>
-  <rect x="95%" y="100" width="14" height="14" fill="#00E5FF" opacity="0.3" rx="2">
-    <animate attributeName="y" values="100;-20" dur="5.5s" repeatCount="indefinite" begin="4s" />
-    <animate attributeName="opacity" values="0;0.6;0" dur="5.5s" repeatCount="indefinite" begin="4s" />
-  </rect>
-
-  <!-- Quadrados Roxos -->
-  <rect x="10%" y="100" width="10" height="10" fill="#6A0DAD" opacity="0.5" rx="2">
-    <animate attributeName="y" values="100;-20" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
-    <animate attributeName="opacity" values="0;0.7;0" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
-  </rect>
-  <rect x="25%" y="100" width="14" height="14" fill="#6A0DAD" opacity="0.3" rx="2">
-    <animate attributeName="y" values="100;-20" dur="4.5s" repeatCount="indefinite" begin="1.5s" />
-    <animate attributeName="opacity" values="0;0.6;0" dur="4.5s" repeatCount="indefinite" begin="1.5s" />
-  </rect>
-  <rect x="45%" y="100" width="9" height="9" fill="#6A0DAD" opacity="0.6" rx="1">
-    <animate attributeName="y" values="100;-20" dur="2.8s" repeatCount="indefinite" begin="2.5s" />
-    <animate attributeName="opacity" values="0;0.8;0" dur="2.8s" repeatCount="indefinite" begin="2.5s" />
-  </rect>
-  <rect x="65%" y="100" width="15" height="15" fill="#6A0DAD" opacity="0.2" rx="3">
-    <animate attributeName="y" values="100;-20" dur="6s" repeatCount="indefinite" begin="3s" />
-    <animate attributeName="opacity" values="0;0.5;0" dur="6s" repeatCount="indefinite" begin="3s" />
-  </rect>
-  <rect x="85%" y="100" width="8" height="8" fill="#6A0DAD" opacity="0.6" rx="1">
-    <animate attributeName="y" values="100;-20" dur="3.2s" repeatCount="indefinite" begin="2.2s" />
-    <animate attributeName="opacity" values="0;0.9;0" dur="3.2s" repeatCount="indefinite" begin="2.2s" />
-  </rect>
-</svg>
+<img src="assets/quadrados.svg" width="100%" alt="">
 
 # Gustavo Chaves
 ### Dados · BI · Relatórios · Suporte Técnico
