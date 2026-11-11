@@ -1,8 +1,11 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Gustavo Chaves - Header Animado" />
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<br>
+<img src="assets/quadrados.svg" width="100%" alt="">
+
+# Gustavo Chaves
+### Dados · BI · Relatórios · Suporte Técnico
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00E5FF&center=true&vCenter=true&width=650&lines=SELECT+*+FROM+carreira+WHERE+foco+%3D+%27dados%27%3B;An%C3%A1lise+de+Dados+%7C+Relat%C3%B3rios+%7C+Dashboards;SQL+%7C+MySQL+%7C+Power+BI+%7C+Python;Suporte+T%C3%A9cnico+%40+Azship;Sistemas+de+Informa%C3%A7%C3%A3o+%E2%80%94+8%C2%BA+Per%C3%ADodo)](https://git.io/typing-svg)
 
@@ -92,6 +95,8 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 - Pipeline de coleta e carga (ETL) automatizado
 - `Python` `MySQL` `Power BI` `ETL`
 
+<!-- Se o repositório for público, adicione o link no título acima -->
+
 ---
 
 ### TaskFlow Service Desk
@@ -99,6 +104,8 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 
 - Telas de cliente e de suporte, com indicadores de atendimento (**CSAT**, **FRT** e tempo de atendimento)
 - `Python` `Flask` `Socket.IO` `ITIL` `Indicadores`
+
+<!-- Se o repositório for público, adicione o link no título acima -->
 
 ---
 
@@ -145,8 +152,6 @@ Estudante de **Sistemas de Informação (8º período)**, com base em infraestru
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-henrique-coelho-chaves-b5118b1ab)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gustavo-Coelho-Chaves)
 
-<br><br>
-
-<img src="assets/footer.svg" width="100%" alt="Footer Animado" />
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:00E5FF&height=80&section=footer)
 
 </div>
