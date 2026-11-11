@@ -2,34 +2,48 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<!-- ANIMAÇÃO DE QUADRADOS TRANSPARENTES FLUTUANDO (CSS INTEGRADO) -->
-<svg width="100%" height="80" viewBox="0 0 800 80" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .sq { animation: flutuar 10s linear infinite; }
-    .d1 { animation-delay: 0s; }
-    .d2 { animation-delay: 1.5s; }
-    .d3 { animation-delay: 3s; }
-    .d4 { animation-delay: 4.5s; }
-    .d5 { animation-delay: 6s; }
-    .d6 { animation-delay: 7.5s; }
-    .d7 { animation-delay: 9s; }
-    
-    @keyframes flutuar {
-      0% { transform: translateY(80px); opacity: 0; }
-      10% { opacity: 0.7; }
-      90% { opacity: 0.7; }
-      100% { transform: translateY(-20px); opacity: 0; }
-    }
-  </style>
-  
-  <!-- Quadrados Ciano e Roxo -->
-  <rect class="sq d1" x="5%" width="12" height="12" fill="#00E5FF" rx="2" />
-  <rect class="sq d2" x="18%" width="8" height="8" fill="#6A0DAD" rx="1" />
-  <rect class="sq d3" x="32%" width="16" height="16" fill="#00E5FF" rx="3" />
-  <rect class="sq d4" x="48%" width="10" height="10" fill="#6A0DAD" rx="2" />
-  <rect class="sq d5" x="62%" width="14" height="14" fill="#00E5FF" rx="2" />
-  <rect class="sq d6" x="78%" width="9" height="9" fill="#6A0DAD" rx="1" />
-  <rect class="sq d7" x="92%" width="11" height="11" fill="#00E5FF" rx="2" />
+<!-- ANIMAÇÃO DE QUADRADOS TRANSPARENTES FLUTUANDO -->
+<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Quadrado 1 -->
+  <rect x="50" y="120" width="10" height="10" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="120;-20" dur="8s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <!-- Quadrado 2 -->
+  <rect x="150" y="120" width="14" height="14" fill="#6A0DAD" rx="2">
+    <animate attributeName="y" values="120;-20" dur="10s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="10s" repeatCount="indefinite" begin="1.5s"/>
+  </rect>
+  <!-- Quadrado 3 -->
+  <rect x="250" y="120" width="8" height="8" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="120;-20" dur="7s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite" begin="3s"/>
+  </rect>
+  <!-- Quadrado 4 -->
+  <rect x="350" y="120" width="12" height="12" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="120;-20" dur="9s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+  <!-- Quadrado 5 -->
+  <rect x="450" y="120" width="16" height="16" fill="#6A0DAD" rx="3">
+    <animate attributeName="y" values="120;-20" dur="11s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="11s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+  <!-- Quadrado 6 -->
+  <rect x="550" y="120" width="9" height="9" fill="#00E5FF" rx="1">
+    <animate attributeName="y" values="120;-20" dur="8.5s" repeatCount="indefinite" begin="4s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="8.5s" repeatCount="indefinite" begin="4s"/>
+  </rect>
+  <!-- Quadrado 7 -->
+  <rect x="650" y="120" width="11" height="11" fill="#6A0DAD" rx="2">
+    <animate attributeName="y" values="120;-20" dur="9.5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="9.5s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+  <!-- Quadrado 8 -->
+  <rect x="750" y="120" width="15" height="15" fill="#00E5FF" rx="2">
+    <animate attributeName="y" values="120;-20" dur="10s" repeatCount="indefinite" begin="3.5s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite" begin="3.5s"/>
+  </rect>
 </svg>
 
 # Gustavo Chaves
