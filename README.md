@@ -2,7 +2,35 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<img src="assets/quadrados.svg" width="100%" alt="">
+<!-- ANIMAÇÃO DE QUADRADOS TRANSPARENTES FLUTUANDO (CSS INTEGRADO) -->
+<svg width="100%" height="80" viewBox="0 0 800 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .sq { animation: flutuar 10s linear infinite; }
+    .d1 { animation-delay: 0s; }
+    .d2 { animation-delay: 1.5s; }
+    .d3 { animation-delay: 3s; }
+    .d4 { animation-delay: 4.5s; }
+    .d5 { animation-delay: 6s; }
+    .d6 { animation-delay: 7.5s; }
+    .d7 { animation-delay: 9s; }
+    
+    @keyframes flutuar {
+      0% { transform: translateY(80px); opacity: 0; }
+      10% { opacity: 0.7; }
+      90% { opacity: 0.7; }
+      100% { transform: translateY(-20px); opacity: 0; }
+    }
+  </style>
+  
+  <!-- Quadrados Ciano e Roxo -->
+  <rect class="sq d1" x="5%" width="12" height="12" fill="#00E5FF" rx="2" />
+  <rect class="sq d2" x="18%" width="8" height="8" fill="#6A0DAD" rx="1" />
+  <rect class="sq d3" x="32%" width="16" height="16" fill="#00E5FF" rx="3" />
+  <rect class="sq d4" x="48%" width="10" height="10" fill="#6A0DAD" rx="2" />
+  <rect class="sq d5" x="62%" width="14" height="14" fill="#00E5FF" rx="2" />
+  <rect class="sq d6" x="78%" width="9" height="9" fill="#6A0DAD" rx="1" />
+  <rect class="sq d7" x="92%" width="11" height="11" fill="#00E5FF" rx="2" />
+</svg>
 
 # Gustavo Chaves
 ### Dados · BI · Relatórios · Suporte Técnico
