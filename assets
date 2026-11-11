@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .float1 { animation: float 12s infinite linear; }
+      .float2 { animation: float 16s infinite linear 3s; }
+      .float3 { animation: float 14s infinite linear 6s; }
+      .float4 { animation: float 18s infinite linear 9s; }
+      .float5 { animation: float 10s infinite linear 1s; }
+      .float6 { animation: float 15s infinite linear 4s; }
+      
+      @keyframes float {
+        0% { transform: translateY(250px); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateY(-100px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- CUBO 1 -->
+  <g class="float1" transform="translate(100, 0)">
+    <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="rgba(0,229,255,0.05)"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0"/>
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="rgba(0,229,255,0.1)"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0"/>
+    </g>
+  </g>
+
+  <!-- CUBO 2 -->
+  <g class="float2" transform="translate(300, 0)">
+    <g stroke="#6A0DAD" stroke-width="2" fill="none" filter="url(#glow-purple)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="rgba(106,13,173,0.05)"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0"/>
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="rgba(106,13,173,0.1)"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0"/>
+    </g>
+  </g>
+
+  <!-- CUBO 3 -->
+  <g class="float3" transform="translate(500, 0)">
+    <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="rgba(0,229,255,0.05)"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0"/>
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="rgba(0,229,255,0.1)"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0"/>
+    </g>
+  </g>
+
+  <!-- CUBO 4 -->
+  <g class="float4" transform="translate(700, 0)">
+    <g stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="rgba(106,13,173,0.05)"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0"/>
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="rgba(106,13,173,0.1)"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0"/>
+    </g>
+  </g>
+
+  <!-- CUBO 5 -->
+  <g class="float5" transform="translate(900, 0)">
+    <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="rgba(0,229,255,0.05)"/>
+      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0"/>
+      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="rgba(0,229,255,0.1)"/>
+      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0"/>
+    </g>
+  </g>
+  
+  <!-- CUBO 6 -->
+  <g class="float6" transform="translate(200, 0)">
+    <g stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
+      <polygon points="0,-15 13,-7.5 13,7.5 0,15 -13,7.5 -13,-7.5" fill="rgba(106,13,173,0.05)"/>
+      <path d="M0,-15 L0,0 M-13,7.5 L0,0 M13,7.5 L0,0"/>
+      <polygon points="0,-7 6.5,-3.5 6.5,3.5 0,7 -6.5,3.5 -6.5,-3.5" fill="rgba(106,13,173,0.1)"/>
+      <path d="M0,-7 L0,0 M-6.5,3.5 L0,0 M6.5,3.5 L0,0"/>
+    </g>
+  </g>
+
+  <!-- TEXTOS -->
+  <text x="50%" y="48%" text-anchor="middle" fill="#ffffff" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1">Gustavo Chaves</text>
+  <text x="50%" y="64%" text-anchor="middle" fill="#00E5FF" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="18" font-weight="500">Dados · BI · Relatórios · Suporte Técnico</text>
+</svg>
