@@ -2,105 +2,142 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:6A0DAD&height=120&section=header&animation=fadeIn)
 
-<!-- ANIMAÇÃO DE CUBOS 3D FLUTUANDO (DATA STREAM) -->
-<svg width="100%" height="160" viewBox="0 0 1000 160" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<!-- ANIMAÇÃO DE CUBOS 3D NEON FLUTUANDO -->
+<svg width="100%" height="220" viewBox="0 0 1000 220" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Filtro de Brilho Ciano -->
+    <!-- Filtro de Brilho Neon Ciano -->
     <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur2" />
       <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="blur" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
     
-    <!-- Filtro de Brilho Roxo -->
+    <!-- Filtro de Brilho Neon Roxo -->
     <filter id="glow-purple" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur2" />
       <feMerge>
-        <feMergeNode in="blur" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-
-    <!-- Modelo do Cubo Ciano -->
-    <g id="cube-cyan" stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
-      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="#00E5FF" fill-opacity="0.05"/>
-      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0" />
-      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="#00E5FF" fill-opacity="0.15"/>
-      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0" />
-    </g>
-
-    <!-- Modelo do Cubo Roxo -->
-    <g id="cube-purple" stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
-      <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="#6A0DAD" fill-opacity="0.05"/>
-      <path d="M0,-25 L0,0 M-21.6,12.5 L0,0 M21.6,12.5 L0,0" />
-      <polygon points="0,-12 10.4,-6 10.4,6 0,12 -10.4,6 -10.4,-6" fill="#6A0DAD" fill-opacity="0.15"/>
-      <path d="M0,-12 L0,0 M-10.4,6 L0,0 M10.4,6 L0,0" />
-    </g>
   </defs>
 
-  <!-- Cubos Subindo pela Tela -->
-  <!-- Cubo 1 -->
+  <!-- CUBO 1 (Ciano) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="80,160; 80,-50" dur="12s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="12s" repeatCount="indefinite" begin="0s"/>
-    <g transform="scale(0.8)"><use href="#cube-cyan" /></g>
+    <animateTransform attributeName="transform" type="translate" values="80,250; 80,-100" dur="14s" repeatCount="indefinite" begin="0s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="14s" repeatCount="indefinite" begin="0s" />
+    <g transform="scale(1)">
+      <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(0,229,255,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(0,229,255,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#00E5FF" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#00E5FF" stroke-width="2" fill="none" />
+    </g>
   </g>
-  <!-- Cubo 2 -->
+
+  <!-- CUBO 2 (Roxo) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="180,160; 180,-50" dur="15s" repeatCount="indefinite" begin="4s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="15s" repeatCount="indefinite" begin="4s"/>
-    <g transform="scale(0.5)"><use href="#cube-purple" /></g>
+    <animateTransform attributeName="transform" type="translate" values="220,250; 220,-100" dur="18s" repeatCount="indefinite" begin="4s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="18s" repeatCount="indefinite" begin="4s" />
+    <g transform="scale(0.6)">
+      <g stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(106,13,173,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(106,13,173,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#6A0DAD" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#6A0DAD" stroke-width="2" fill="none" />
+    </g>
   </g>
-  <!-- Cubo 3 -->
+
+  <!-- CUBO 3 (Ciano) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="280,160; 280,-50" dur="10s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="10s" repeatCount="indefinite" begin="2s"/>
-    <g transform="scale(1)"><use href="#cube-cyan" /></g>
+    <animateTransform attributeName="transform" type="translate" values="380,250; 380,-100" dur="12s" repeatCount="indefinite" begin="2s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="12s" repeatCount="indefinite" begin="2s" />
+    <g transform="scale(1.2)">
+      <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(0,229,255,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(0,229,255,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#00E5FF" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#00E5FF" stroke-width="2" fill="none" />
+    </g>
   </g>
-  <!-- Cubo 4 -->
+
+  <!-- CUBO 4 (Roxo) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="400,160; 400,-50" dur="14s" repeatCount="indefinite" begin="7s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite" begin="7s"/>
-    <g transform="scale(0.7)"><use href="#cube-purple" /></g>
+    <animateTransform attributeName="transform" type="translate" values="520,250; 520,-100" dur="16s" repeatCount="indefinite" begin="7s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="16s" repeatCount="indefinite" begin="7s" />
+    <g transform="scale(0.8)">
+      <g stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(106,13,173,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(106,13,173,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#6A0DAD" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#6A0DAD" stroke-width="2" fill="none" />
+    </g>
   </g>
-  <!-- Cubo 5 -->
+
+  <!-- CUBO 5 (Ciano) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="520,160; 520,-50" dur="11s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="11s" repeatCount="indefinite" begin="1s"/>
-    <g transform="scale(0.9)"><use href="#cube-cyan" /></g>
+    <animateTransform attributeName="transform" type="translate" values="680,250; 680,-100" dur="15s" repeatCount="indefinite" begin="1s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="15s" repeatCount="indefinite" begin="1s" />
+    <g transform="scale(1.1)">
+      <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(0,229,255,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(0,229,255,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#00E5FF" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#00E5FF" stroke-width="2" fill="none" />
+    </g>
   </g>
-  <!-- Cubo 6 -->
+
+  <!-- CUBO 6 (Roxo) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="650,160; 650,-50" dur="16s" repeatCount="indefinite" begin="5s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="16s" repeatCount="indefinite" begin="5s"/>
-    <g transform="scale(0.6)"><use href="#cube-purple" /></g>
+    <animateTransform attributeName="transform" type="translate" values="850,250; 850,-100" dur="17s" repeatCount="indefinite" begin="5s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="17s" repeatCount="indefinite" begin="5s" />
+    <g transform="scale(0.7)">
+      <g stroke="#6A0DAD" stroke-width="1.5" fill="none" filter="url(#glow-purple)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(106,13,173,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(106,13,173,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#6A0DAD" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#6A0DAD" stroke-width="2" fill="none" />
+    </g>
   </g>
-  <!-- Cubo 7 -->
+  
+  <!-- CUBO 7 (Ciano - Menor) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="750,160; 750,-50" dur="13s" repeatCount="indefinite" begin="3s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="13s" repeatCount="indefinite" begin="3s"/>
-    <g transform="scale(0.85)"><use href="#cube-cyan" /></g>
-  </g>
-  <!-- Cubo 8 -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="880,160; 880,-50" dur="12s" repeatCount="indefinite" begin="8s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="12s" repeatCount="indefinite" begin="8s"/>
-    <g transform="scale(0.7)"><use href="#cube-purple" /></g>
-  </g>
-  <!-- Cubo 9 -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="950,160; 950,-50" dur="10s" repeatCount="indefinite" begin="6s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="10s" repeatCount="indefinite" begin="6s"/>
-    <g transform="scale(0.9)"><use href="#cube-cyan" /></g>
-  </g>
-  <!-- Cubo 10 -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="340,160; 340,-50" dur="14s" repeatCount="indefinite" begin="9s"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite" begin="9s"/>
-    <g transform="scale(0.55)"><use href="#cube-cyan" /></g>
+    <animateTransform attributeName="transform" type="translate" values="450,250; 450,-100" dur="11s" repeatCount="indefinite" begin="8s" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="11s" repeatCount="indefinite" begin="8s" />
+    <g transform="scale(0.5)">
+      <g stroke="#00E5FF" stroke-width="1.5" fill="none" filter="url(#glow-cyan)">
+        <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" fill="rgba(0,229,255,0.05)" />
+        <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" />
+        <polygon points="0,-10 8.66,-5 8.66,5 0,10 -8.66,5 -8.66,-5" fill="rgba(0,229,255,0.15)" />
+        <path d="M0,-10 L0,0 M-8.66,-5 L0,0 M8.66,-5 L0,0" />
+      </g>
+      <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10" stroke="#00E5FF" stroke-width="2" fill="none" />
+      <path d="M0,-20 L0,0 M-17.32,-10 L0,0 M17.32,-10 L0,0" stroke="#00E5FF" stroke-width="2" fill="none" />
+    </g>
   </g>
 </svg>
 
