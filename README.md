@@ -32,7 +32,9 @@ Desenvolvimento de dashboards e estudo de BI em projetos menores
 Troubleshooting de sistema em JavaScript: análise de logs e payloads para identificar a causa raiz de erros
 Validação do código do backend no Bitbucket para localizar falhas e apoiar a correção
 
-Apollo Sistema: Auxiliar Técnico
+Apollo Sistema: 
+
+Auxiliar Técnico
 Análise e resolução de gargalos de tráfego de rede, melhorando desempenho e estabilidade
 Configuração de endereçamento IP e de redes locais (LAN)
 Administração e suporte em ambientes Linux
