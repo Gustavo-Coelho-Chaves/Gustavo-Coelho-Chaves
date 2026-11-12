@@ -15,28 +15,31 @@
 
 ## Sobre mim
 
-Estudante de **Sistemas de Informação (8º período)**, com base em infraestrutura e suporte e atuação cada vez mais voltada para **dados**. No dia a dia, trabalho com **troubleshooting**, **análise de dados**, **relatórios** e **dashboards** em um sistema de gestão de transportes (TMS) em produção, usando SQL para investigar problemas, extrair informações e apoiar decisões.
+Estudante de Sistemas de Informação (8º período) com base sólida em infraestrutura, redes e Linux, e atuação crescente em dados e BI. Hoje atuo com troubleshooting, SQL e relatórios em um TMS em produção, investigando problemas de ponta a ponta: da rede e dos logs até o banco de dados e o código. Busco unir visão de infraestrutura e análise de dados para gerar informação confiável e apoiar decisões.
 
-- **Azship**: Suporte Técnico (sistema TMS)
-- **Sistemas de Informação**: 8º Período
+Azship: Suporte Técnico (sistema TMS)
+Sistemas de Informação: 8º Período
 
----
 
-## Experiência
 
-### Azship: Suporte Técnico
-- Criação e manutenção de **relatórios** para o sistema, com **otimização de queries** em relatórios lentos
-- **Consultas SQL** no banco de dados (DBeaver) para análise e investigação de dados
-- Desenvolvimento de **dashboards** e estudo de **BI** em projetos menores
-- **Troubleshooting** de um sistema em JavaScript: análise de **logs** e **payloads** para identificar a causa de erros
-- Validação do **código do backend** no **Bitbucket** para localizar falhas e apoiar a correção
+Experiência
 
-### Apollo Sistema: Auxiliar Técnico
-- Atendimento por ligação e **suporte a clientes**
-- Soluções com **servidor local** e instalação de impressoras
-- **SQL** (select, update, delete) e ajustes no sistema
+Azship: Suporte Técnico
 
----
+Criação e manutenção de relatórios operacionais, com otimização de queries em relatórios lentos
+Consultas SQL (DBeaver) para análise e investigação de dados em ambiente de produção
+Desenvolvimento de dashboards e estudo de BI em projetos menores
+Troubleshooting de sistema em JavaScript: análise de logs e payloads para identificar a causa raiz de erros
+Validação do código do backend no Bitbucket para localizar falhas e apoiar a correção
+
+Apollo Sistema: Auxiliar Técnico
+Análise e resolução de gargalos de tráfego de rede, melhorando desempenho e estabilidade
+Configuração de endereçamento IP e de redes locais (LAN)
+Administração e suporte em ambientes Linux
+Suporte a servidor local e ajustes no sistema
+Geração de relatórios a partir de consultas SQL no banco de dados
+
+
 
 ## Competências em dados
 
